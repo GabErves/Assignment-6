@@ -19,7 +19,7 @@ function App() {
         <input
           className="zip"
           value={zipcode}
-          placeholder="XXXXX"
+          placeholder=""
           type="text"
           name="zip"
           id="zip"
