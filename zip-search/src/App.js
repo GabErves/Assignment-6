@@ -7,9 +7,10 @@ function App() {
   const [zipcode, setZipcode] = useState("");
   return (
     <div className="App">
-      <h1>City/State Lookup Tool</h1>
+      <h1>Zip Code Lookup Tool</h1>
+      <h3>This program will find a specific location depending on the zip code you type in</h3>
       <form action="" className="form-data">
-        <label htmlFor="zip">Type Zip Code Here</label>
+        <label htmlFor="zip">Type a Zip Code Here</label>
         <input
           className="zip"
           value={zipcode}
@@ -17,10 +18,6 @@ function App() {
           type="text"
           name="zip"
           id="zip"
-          onChange={(event) => {
-            const { value } = event.target;
-            setZipcode(value.replace(/[^\d{5}]$/, "").substr(0, 5));
-          }}
         />
         <label htmlFor="city">City</label>
         <input

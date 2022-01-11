@@ -4,7 +4,7 @@
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  background-color: rgb(190, 179, 190);
+  background-color: plum;
   height: 100vh;
 }
 h1 {
@@ -56,7 +56,7 @@ pre {
   }
 }
 
-.loader::after,
+/*.loader::after,
 .loader::before {
   content: "";
   background: white;
@@ -77,4 +77,4 @@ pre {
 .loader::after {
   animation: around 0.7s ease-in-out 0.1s infinite;
   background: transparent;
-}
+}*/
