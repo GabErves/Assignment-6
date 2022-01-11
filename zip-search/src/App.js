@@ -1,3 +1,7 @@
+//some code was adapted from here:
+//https://dev.to/vetswhocode/react-tutorial-city-state-lookup-using-the-us-postal-service-api-202p
+
+
 import React, { useState } from "react";
 import "./App.css";
 
